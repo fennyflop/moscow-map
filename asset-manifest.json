@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/moscow-map/static/css/main.0445ad7b.chunk.css",
+    "main.js": "/moscow-map/static/js/main.86e744fe.chunk.js",
+    "main.js.map": "/moscow-map/static/js/main.86e744fe.chunk.js.map",
+    "runtime-main.js": "/moscow-map/static/js/runtime-main.220805a6.js",
+    "runtime-main.js.map": "/moscow-map/static/js/runtime-main.220805a6.js.map",
+    "static/js/2.bfb1d7c8.chunk.js": "/moscow-map/static/js/2.bfb1d7c8.chunk.js",
+    "static/js/2.bfb1d7c8.chunk.js.map": "/moscow-map/static/js/2.bfb1d7c8.chunk.js.map",
+    "static/js/3.2026d11c.chunk.js": "/moscow-map/static/js/3.2026d11c.chunk.js",
+    "static/js/3.2026d11c.chunk.js.map": "/moscow-map/static/js/3.2026d11c.chunk.js.map",
+    "index.html": "/moscow-map/index.html",
+    "static/css/main.0445ad7b.chunk.css.map": "/moscow-map/static/css/main.0445ad7b.chunk.css.map",
+    "static/js/2.bfb1d7c8.chunk.js.LICENSE.txt": "/moscow-map/static/js/2.bfb1d7c8.chunk.js.LICENSE.txt",
+    "static/media/PlaceInfo.css": "/moscow-map/static/media/button.4da05c0c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.220805a6.js",
+    "static/js/2.bfb1d7c8.chunk.js",
+    "static/css/main.0445ad7b.chunk.css",
+    "static/js/main.86e744fe.chunk.js"
+  ]
+}
