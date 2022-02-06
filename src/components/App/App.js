@@ -45,7 +45,6 @@ const App = () => {
 
   useEffect(() => {
     moveToPlace(slides[selectedId].coordinates);
-    // console.log(slides[selectedId].coordinates)
   }, [selectedId])
 
   return (
@@ -57,7 +56,7 @@ const App = () => {
       instanceRef={ref => {
         if (ref) mapRef.current = ref;
     }} 
-        defaultState={{ center: [55.796127, 49.106414], zoom: 9 }} style={{
+        defaultState={{ center: [55.755865, 37.617520], zoom: 10 }} style={{
         width: "100%",
         height: "100vh",
       }}>

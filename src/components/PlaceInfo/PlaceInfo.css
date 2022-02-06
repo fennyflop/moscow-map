@@ -33,7 +33,7 @@
     left: 0;
     box-sizing: border-box;
     padding: 100px 20px 150px 10px;
-    width: 85%;
+    width: 80%;
     max-width: 450px;
     pointer-events: auto; 
     height: 100vh;
@@ -91,6 +91,20 @@
     margin-bottom: 10px;
     /* overflow: hidden; */
 }
+.info__text {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+.info__text:last-of-type {
+    margin-top: 15px;
+}
+.info__el{
+    color: white;
+}
+.info__list {
+    padding-left: 16px;
+}
 .info__image:hover {
     transition: all .3s ease-in-out;
     transform: scale(1.05);
@@ -145,7 +159,7 @@
     font-size: 20px;
     font-weight: normal;
     color: white;
-    margin: 0 0 0 10px;
+    margin: 0;
 }
 ::-webkit-scrollbar {
     width: 1px;

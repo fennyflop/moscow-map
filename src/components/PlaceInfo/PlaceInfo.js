@@ -1,23 +1,30 @@
+import { useMemo } from 'react';
 import './PlaceInfo.css';
 
 const PlaceInfo = ({place, isPlaceToggled, togglePlace, currentId, slides, nextSlide, backSlide}) => {
 
-    console.log(slides[currentId].images)
-
-    const imageUrl = `https://cdn.pixabay.com/photo/2020/09/04/09/09/snow-leopard-5543394_960_720.png`;
+    const info = useMemo(() => slides[currentId], [currentId]);
 
     return (
         <section className={`info ${isPlaceToggled ? '' : "info-hidden"}`}>
             <div className="info__dialog">
                 <h1 className="info__real-title">
-                    {slides[currentId].name || ''}
+                    {info.name || ''}
                 </h1>
                 <div className="info__part">
-                    <div className="info__person">
-                    <img className="info__speaker" src={imageUrl} alt="speaker" />
-                    <p className="info__name">Снежный барс</p>
+                    {info.speech ? <p className="info__title">{info.speech}</p>
+                    :
+                    <div styles={{display: 'flex', 'flexDirection': 'column'}}>
+                        <p className="info__text">{'\u00b7'} Поэт: {slides[currentId].poet}</p>
+                        <p className="info__text">{'\u00b7'} Год построения: {slides[currentId].date}</p>
+                        <p className="info__text">{'\u00b7'} Факты:</p>
+                        <ol className='info__list'>
+                            {info.facts.map((element, i) => {
+                                return <li className='info__el' key={i}>{element}</li>
+                            })}
+                        </ol>
                     </div>
-                    <h1 className="info__title">{slides[currentId].speech}</h1>
+                    }
                 </div>
                 <p className="info__subtext">{slides[currentId].images ? "Фотографии:" : ''}</p>
                 <div className="info__images">
