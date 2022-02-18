@@ -35,11 +35,19 @@ export const places = [
         placeId: 9,
         placeCoordinates: [56.179544, 37.901968],
     },
+    {
+        placeId: 10,
+        placeCoordinates: [57.506976, 39.764761],
+    },
+    {
+        placeId: 10,
+        placeCoordinates: [57.607986, 42.166362],
+    },
   ];
   
 export const slides = [
     {
-      speech: "Тур по Москве"
+      speech: "Тур по золотому кольцу России :)"
     }, 
     {
         // id 1
@@ -50,7 +58,7 @@ export const slides = [
         facts: [
             'Поэт приезжал в эту усадьбу вместе с бабушкой в летние каникулы 1829—1832 годов',
             'В Середниково юным Лермонтовым написаны семь поэм, две драмы, около ста стихотворений.',
-            'Здесь испытал первую и, увы, неразделенную любовь',
+            'Здесь поэт испытал глубокое чувство первой любви к Екатерине Сушковой ',
             'Здесь начал работать над поэмой "Демон" и написал драмы "Люди и страсти" и "Странный человек" и ряд лирических стихотворений'
         ],
         images: [
@@ -78,7 +86,7 @@ export const slides = [
         // id 3
         coordinates: [55.646121, 36.969846],
         poet: 'А.С. Пушкин',
-        date: "1987",
+        date: "1804",
         name: "Захарово",
         facts: [
             `В Захарово прошло раннее детство Александра Сергеевича`,
@@ -90,6 +98,7 @@ export const slides = [
             `Сюда же Пушкин приезжал в самые трудные периоды своей жизни`,
         ],
         images: [
+            'https://shagau.ru/images/original/2017/04/29/cbe567797151f15ab9aa08c49cbf3e85.jpg',
             'https://ru.moscovery.com/wp-content/uploads/2017/05/header-4.jpg',
             'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kiprensky_Pushkin.jpg/270px-Kiprensky_Pushkin.jpg'
         ]
@@ -163,7 +172,7 @@ export const slides = [
         ],
         images: [
             'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRwufGX62aPbr-O4JnGmGj1e_IeGR5ovQ_O-fG957Lsz_-0ukCeNGNHL8KhcU26',
-            'https://travel.riamo.ru/upload/files/4/X/820/4XAtUliHHGp6edKOx9AaD3EQSpxPkjETq0ifVBW5bJBapDXsnASDVCc1tcWlCyhm79LBW5eiwahVy38wAAHe4co3EghvWx8M.jpg'
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D0%94%D0%BE%D0%BC-%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A6%D0%B2%D0%B5%D1%82%D0%B0%D0%B5%D0%B2%D0%BE%D0%B9.JPG/1200px-%D0%94%D0%BE%D0%BC-%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A6%D0%B2%D0%B5%D1%82%D0%B0%D0%B5%D0%B2%D0%BE%D0%B9.JPG'
         ]
     },
     {
@@ -200,6 +209,43 @@ export const slides = [
         images: [
             'https://library.astu.org/newCalendar/img/5december.jpg',
             'https://img-fotki.yandex.ru/get/6201/233460605.69/0_f0b66_31161671_XXL.jpg'
+        ]
+    },
+    {
+        // id 10
+        coordinates: [57.607986, 42.166362],
+        poet: 'Н.А. Некрасов',
+        date: "1946",
+        name: "Карабиха",
+        facts: [
+            `В 1861 — 1875 годах поэт проводит здесь несколько летних сезонов,где
+            пишет свои знаменитые поэмы «Русские женщины», «Мороз, Красный
+            нос», стихотворение «Орина, мать солдатская» и ряд других`,
+            `Начинает работу над произведением «Кому на Руси жить хорошо»`,
+        ],
+        images: [
+            'https://uramdb.ru/uploads/2020/11/25/2417687-nikolaj-alekseevich-nekrasov_medium.jpg',
+            'https://karabiha-museum.ru/upload/information_system_90/2/8/4/item_2846/information_items_property_3838.jpg',
+        ]
+    },
+    {
+        // id 11
+        coordinates: [57.506976, 39.764761],
+        poet: 'А.Н. Островский',
+        date: "1923",
+        name: "Щелыково",
+        facts: [
+            `Отдыхая, Островский, пользовался всеми возможностями и
+            удовольствиями усадьбы: гулял по саду, парку и окрестностям, купался,
+            собирал ягоды и грибы, ловил рыбу, охотился, выпиливал изящные
+            безделушки, читал, беседовал и веселился с друзьями...`,
+            `Здесь Александр Николаевич Островский написал лучшие свои пьесы:
+            «Гроза», «Лес», «Бесприданница», «Волки и овцы». Здесь же
+            задумывалась «Снегурочка»`,
+        ],
+        images: [
+            'https://obrazovaka.ru/wp-content/uploads/2014/08/Ostrovskiy-Aleksandr-Nikolaevich.jpg',
+            'https://kostromaturs.ru/wp-content/uploads/bfi_thumb/shelikovo_place-n8ku4ra83uc3rwd1inlop1b2mvludognjt9fo695sk.jpg',
         ]
     },
     // {
